@@ -20,7 +20,7 @@ function addElementToEndOfArray (chocolateBars, element) {
 
 function destructivelyAddElementToEndOfArray (chocolateBars, element) {
   chocolateBars.push(element)
-  return element;
+  return chocolateBars;
 }
 
 function accessElementInArray (chocolateBars, index) {
@@ -46,6 +46,7 @@ function removeElementFromEndOfArray (chocolateBars) {
   chocolateBars.slice(0, chocolateBars.length - 1)
   return chocolateBars;
 }
+
 
 
 
