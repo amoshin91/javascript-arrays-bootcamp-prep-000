@@ -9,32 +9,32 @@ function addElementToBeginningOfArray (chocolateBars, element) {
   return [element, ...chocolateBars];
 }
 
-function destructivelyAddElementToBeginningOfArray (array, element) {
-  array.unshift(element)
-  return array;
+function destructivelyAddElementToBeginningOfArray (chocolateBars, element) {
+  chocolateBars.unshift(element)
+  return chocolateBars;
 }
 
-function addElementToEndOfArray (array, element) {
-  return [...array, element];
+function addElementToEndOfArray (chocolateBars, element) {
+  return [...chocolateBars, element];
 }
 
-function destructivelyAddElementToEndOfArray (array, element) {
-  array.push(element)
+function destructivelyAddElementToEndOfArray (chocolateBars, element) {
+  chocolateBars.push(element)
   return element;
 }
 
-function accessElementInArray (array, index) {
-  return array[index];
+function accessElementInArray (chocolateBars, index) {
+  return chocolateBars[index];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray (array) {
-    array.shift(element)
-    return array;
+function destructivelyRemoveElementFromBeginningOfArray (chocolateBars) {
+    chocolateBars.shift(element)
+    return chocolateBars;
 }
 
-function removeElementFromBeginningOfArray (array) {
-  array.slice(1)
-  return array;
+function removeElementFromBeginningOfArray (chocolateBars) {
+  chocolateBars.slice(1)
+  return chocolateBars;
 }
 
 
